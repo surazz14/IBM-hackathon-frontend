@@ -40,7 +40,7 @@ function Login({ user }: any) {
     const signUpData = {
       name: "suraj",
       password: "12345",
-      email: "surajdhakal@abc.com"
+      email: "abc@abc.com"
     }
     try {
       await user.signUp(signUpData);
@@ -48,7 +48,7 @@ function Login({ user }: any) {
       setNotification({
         open: true,
         severity: "error",
-        message: e?.data?.error?.message,
+        message: "",
       });
     }
   };
