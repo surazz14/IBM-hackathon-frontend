@@ -1,11 +1,11 @@
-import Chatbot from "modulus/chatbot";
-import Login from "modulus/login";
+import Dashboard from "modulus/dashboard";
 import Profile from "modulus/profile";
+import Homepage from "modulus/homepage";
 
 export default [
   {
-    component: Chatbot,
-    path: "/chatbot",
+    component: Dashboard,
+    path: "/dashboard",
     exact: true,
     is_private: false
   },
@@ -16,7 +16,7 @@ export default [
     is_private: false
   },
   {
-    component: Login,
+    component: Homepage,
     path: "/",
     exact: true,
     is_private: false

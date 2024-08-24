@@ -11,7 +11,10 @@ export const pxToRem = (size) => {
 const theme = createMuiTheme({
   palette: {
     background: {
-      default: "#f2f2f2",
+      default: "rgb(250, 242, 240)",
+    },
+    primary: {
+      main: "#e91e63",
     },
   },
 });

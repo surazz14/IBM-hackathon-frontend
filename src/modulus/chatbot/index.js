@@ -79,6 +79,7 @@ function Chat() {
 
   const handleSend = () => {
     if (input.trim()) {
+      console.log("this is messages",{messages,input})
       const newMessages = [...messages, { text: input, user: true }];
       setMessages(newMessages);
       setInput('');
